@@ -1,0 +1,5 @@
+/runs*
+/self_test
+/*.out
+/*.pt
+/sbatch*.sh
