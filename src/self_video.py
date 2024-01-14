@@ -9,8 +9,8 @@ if __name__ == '__main__':
     if len(sys.argv) < 2:
         print('usage: self_test <path_to_weights>')
     
-    video_path = './self_test/video/2.mp4'
-    output_video_path = './self_test/out/output_video_2.mp4'  # Change the output video format if needed
+    video_path = './self_test/video/3_enh.mp4'
+    output_video_path = './self_test/out/eca_output_video_3_enh.mp4'  # Change the output video format if needed
     model = YOLO(os.path.join(sys.argv[1], 'best.pt'))
     
     cap = cv2.VideoCapture(video_path)
