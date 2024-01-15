@@ -1,6 +1,7 @@
 /runs*
 /self_test
 /*.out
-/*.pt
+*.pt
 /*.ptt
 /sbatch*.sh
+/custom_testset/videos/*
